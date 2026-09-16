@@ -1,0 +1,55 @@
+# AnaliseEEG
+
+Projeto desenvolvido na disciplina de Engenharia Biomédica (4º semestre) — USJT, com foco em análise de sinais de EEG (eletroencefalograma) em diferentes condições clínicas.
+
+## 📋 Sobre o projeto
+
+Este repositório contém os scripts utilizados para processamento, conversão e comparação de sinais de EEG a partir de arquivos `.fif` (formato MNE-Python), abrangendo diferentes grupos de análise:
+
+- Depressão - Repouso
+- Doença de Parkinson - Repouso
+- Esquizofrenia - Conflito Cognitivo
+- Traumatismo Cranioencefálico Leve - Repouso
+
+## 🗂️ Estrutura do repositório
+
+```
+.
+├── main.py              # Script principal
+├── Comparacao.py         # Comparação entre sinais/grupos de EEG
+├── Conversao.py           # Conversão de formatos de dados
+├── codigosusados.txt      # Referência de códigos/trechos utilizados
+└── .gitignore
+```
+
+> **Nota:** as pastas com os dados brutos de EEG (`arquivos_dados/`, `novo_arquivo/`, `EEGs brutos/`) **não estão versionadas neste repositório** devido ao tamanho dos arquivos `.fif` (dataset com ~3GB). Veja a seção [Dados](#-dados) abaixo para instruções de acesso.
+
+## 📊 Dados
+
+Os arquivos de EEG (`.fif`) utilizados neste projeto não estão hospedados no GitHub por questão de limite de armazenamento. Para obter os dados:
+
+- **[preencher: link do Google Drive / OneDrive / Zenodo / OSF onde os dados estão hospedados]**
+
+Após baixar, extraia os dados nas pastas correspondentes na raiz do projeto (`arquivos_dados/`, `novo_arquivo/`, `EEGs brutos/`) para que os scripts funcionem corretamente.
+
+## ⚙️ Requisitos
+
+- Python 3.x
+- [preencher: bibliotecas utilizadas, ex: mne, numpy, pandas, matplotlib]
+
+Instale as dependências com:
+```bash
+pip install -r requirements.txt
+```
+
+## ▶️ Como usar
+
+```bash
+python main.py
+```
+
+[preencher: descrever o fluxo de uso — o que main.py faz, ordem de execução dos scripts, parâmetros esperados, etc.]
+
+## 👤 Autor
+
+Guilherme André Machado — Engenharia Biomédica, USJT
